@@ -7,7 +7,7 @@ import static org.example.RelacaoAluno.calcularDescanso;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RelacaoAlunoTest {
-    private Aluno aluno1, aluno2, aluno3, aluno4,aluno5;
+    private Aluno aluno1, aluno2, aluno3, aluno4 ,aluno5;
 
     @BeforeEach public void setup()
     {

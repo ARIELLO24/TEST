@@ -4,8 +4,8 @@ public class RelacaoAluno {
 
     public static String calcularDescanso(Aluno aluno) {
 
-        if(aluno.getCansaco() <= 20){
-            return "Descanso diario suficiente:O aluno é um cara tranquilo";
+        if(aluno.getCansaco() <= 0){
+            return "Apenas me moleste mano!!!";
         }
 
         if (aluno.getCansaco() <= 50) {
